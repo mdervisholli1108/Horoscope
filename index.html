@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="dates"></h1>
+    <br>
+    <div id="all">
+        <div id="picture">
+            <img id="photo" src="" alt="" style="display: none;">
+        </div>
+        <div id="main">
+            <input type="text" id="sign" placeholder="Zodiac Sign">
+            <br>
+            <button onclick="getMyHoroscope()" type="submit" id="search">Get Your Horoscope</button>
+        </div>
+        <div id="tabs" style="display: none;">
+            <div>
+                <button id="element" class="type-of-button">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">
+                        ELEMENT
+                    </span>
+                </button>
+            </div>
+            <br>
+            <div>
+                <button id="ruling_planet" class="type-of-button">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">
+                        PLANET
+                    </span>
+                </button>
+            </div>
+            <br>
+            <div>
+                <button id="symbol" class="type-of-button">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">
+                        SYMBOL
+                    </span>
+                </button>
+            </div>
+            <br>
+            <div>
+                <button id="strengths" class="type-of-button">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">
+                        STRENGTHS
+                    </span>
+                </button>
+            </div>
+            <br>
+            <div>
+                <button id="weaknesses" class="type-of-button">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">
+                        WEAKNESSES
+                    </span>
+                </button>
+            </div>
+            <br>
+            <div>
+                <button id="compatibility" class="type-of-button">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">
+                        COMPATIBILITY
+                    </span>
+                </button>
+            </div>
+        </div>
+        <p id="name" style="display: none;"></p>
+        <div id="about" style="display: none;">
+        </div>
+    </div>
+
+
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="boxContent"></p>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

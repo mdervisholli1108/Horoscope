@@ -1,0 +1,323 @@
+body {
+    
+    background: url("https://time.com/wp-content/uploads/2017/10/229-westerlund-21.jpg?w=2000") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width to prevent content from becoming too wide on larger screens. */
+  margin: 0 auto; /* Center the container horizontally. */
+}
+
+}
+
+#dates {
+
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#photo {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 15px;
+    filter: brightness(220%);
+    filter: contrast(220%);
+    filter: drop-shadow(15px 15px 15px rgb(45, 35, 77));
+}
+
+
+
+/* #all {
+    margin-top: 50px;
+    width: 100%;
+
+
+} */
+
+#picture {
+    width: 300px;
+    float: left;
+    height: 300px;
+}
+
+#name {
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(253, 57%, 23%);
+    font-size: 75px;
+    text-align: center;
+
+}
+
+#main {
+    /* float: left; */
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 30px;
+    filter: brightness(220%);
+    filter: contrast(220%);
+    filter: drop-shadow(3px 3px 3px rgb(229, 230, 247));
+}
+
+#tabs {
+    margin-top: 10px;
+    margin-left: 80%;
+    text-align: CENTER;
+    filter: brightness(220%);
+    filter: contrast(220%);
+    filter: drop-shadow(7px 7px 7px rgb(35, 39, 138));
+
+}
+
+
+
+#sign {
+    float: left;
+    margin-top: 100px;
+    margin-left: 38%;
+    width: 50px;
+    width: 400px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    background: linear-gradient(to left top, #290f2e, #230a37) fixed;
+    border-radius: 10px;
+    border: 4px solid rgba(244, 227, 247, 0.964);
+    color: rgb(48, 240, 48);
+    transition: all 0.5s;
+}
+
+#sign:hover {
+    border: 4px solid rgba(255, 255, 255, 0.754);
+}
+
+#sign:focus {
+    border: 2px solid rgba(255, 255, 255, 0.726);
+    background: linear-gradient(to left top, #000, #261535) fixed;
+}
+
+#search {
+    float: left;
+    margin-top: 10px;
+    margin-left: 38%;
+    width: 50px;
+    width: 425px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    background: linear-gradient(to left top, #16081c, #170a23) fixed;
+    border-radius: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.888);
+    transition: all 0.5s;
+}
+
+#search:hover {
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    background: linear-gradient(to left top, #000, #8b5db0) fixed;
+}
+
+#search:focus {
+    background: linear-gradient(to left top, #8b5db0, #000) fixed;
+}
+
+#about {
+    -webkit-text-stroke: 1px hsl(120, 7%, 3%);
+    font-weight: 900;
+    text-align: center;
+    font-size: 32px;
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 30px;
+    padding-left: 10%;
+    filter: brightness(220%);
+    filter: contrast(220%);
+    filter: drop-shadow(10px 10px 10px rgb(8, 8, 11));
+
+
+
+}
+
+
+/* CSS */
+.type-of-button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-82-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition:
+        transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(to left,
+            hsl(252, 100%, 16%) 0%,
+            hsl(242, 100%, 32%) 8%,
+            hsl(242deg 100% 32%) 92%,
+            hsl(252, 100%, 16%) 100%);
+}
+
+.button-82-front {
+    display: block;
+    position: relative;
+    padding: 8px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(246, 27%, 45%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:
+        transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+    .button-82-front {
+        font-size: 1.25rem;
+        padding: 12px 42px;
+    }
+}
+
+.type-of-button:hover {
+    filter: brightness(110%);
+    -webkit-filter: brightness(110%);
+}
+
+.type-of-button:hover .button-82-front {
+    transform: translateY(-6px);
+    transition:
+        transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.type-of-button:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.type-of-button:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition:
+        transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.type-of-button:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.type-of-button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #ffffff;
+    margin-top: 9%;
+    margin-left: 39%;
+    padding: 20px;
+    border: 3px solid #280505;
+    width: 400px;
+    height: 300px;
+
+}
+
+/* The Close Button */
+.close {
+    color: #000000;
+    margin-top: -15px;
+    float: right;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#boxContent {
+    margin-top: 70px;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+
+}
+@media (max-width: 720px) {
+    /* CSS rules for screens up to 768px wide (e.g., mobile devices) */
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for screens between 769px and 1024px wide (e.g., tablets) */
+  }
+  
+  @media (min-width: 1025px) {
+    /* CSS rules for screens wider than 1024px (e.g., desktops) */
+  }
